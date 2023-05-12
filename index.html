@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">WILET</h1>
+        <div class="main">
+            <div class="main__column main__result">
+                <div class="diagram__block">
+                    <h2 class="diagram-title">Диаграмми расходов</h2>
+                    <div class="diagram"></div>
+                </div>
+                <div class="legend">
+                    <ul class="legend__list">
+                        <li class="legend__title">
+                            <span class="legend__desk">продукты</span>
+                            <span class="legend__prise">2000</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main__column purcashes">
+                <table class="purcashes__table">
+                    <thead>
+                        <tr class="purcashes__head">
+                            <td class="purcashes__name">наименование</td>
+                            <td class="purcashes__category">категория</td>
+                            <td class="purcashes__price">цена</td>
+                        </tr>
+                    </thead>
+                    <tr class="purcashes__row">
+                        <td class="purcashes__name">вода</td>
+                        <td class="purcashes__category">напитки</td>
+                        <td class="purcashes__price">200</td>
+                        <td class="purcashes__del"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="main__column addition">
+                <div class="addition__purshes">
+                    <div>товар:</div>
+                    <input type="text" class="addition__name">
+                </div>
+                <div class="addition__price">
+                    <div>цена:</div>
+                    <input type="text" class="addition__name">
+                </div>
+                <div class="addition__category">
+                    <div>Категория</div>
+                    <select>
+                        <option>Еда</option>
+                        <option>Напитки</option>
+                        <option>Развлечения</option>
+                    </select>
+                </div>
+                <button class="addition__btn">Добавить</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
