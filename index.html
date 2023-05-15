@@ -11,7 +11,7 @@
 
 <body>
     <div class="wrapper">
-        <h1 class="title">WILET</h1>
+        <h1 class="title">WALLET</h1>
         <div class="main">
             <div class="main__column main__result">
                 <div class="diagram__block">
@@ -31,31 +31,39 @@
                 <table class="purcashes__table">
                     <thead>
                         <tr class="purcashes__head">
-                            <td class="purcashes__name">наименование</td>
-                            <td class="purcashes__category">категория</td>
-                            <td class="purcashes__price">цена</td>
+                            <td class="purcashes__name">
+                                <h3>наименование</h3>
+                            </td>
+                            <td class="purcashes__category">
+                                <h3>категория</h3>
+                            </td>
+                            <td class="purcashes__price">
+                                <h3>цена</h3>
+                            </td>
                         </tr>
                     </thead>
-                    <tr class="purcashes__row">
-                        <td class="purcashes__name">вода</td>
-                        <td class="purcashes__category">напитки</td>
-                        <td class="purcashes__price">200</td>
-                        <td class="purcashes__del"></td>
-                    </tr>
+                    <tbody>
+                        <tr class="purcashes__row">
+                            <td class="purcashes__name">вода</td>
+                            <td class="purcashes__category">напитки</td>
+                            <td class="purcashes__price">200</td>
+                            <td class="purcashes__del"></td>
+                        </tr>
+                    </tbody>s
                 </table>
             </div>
             <div class="main__column addition">
                 <div class="addition__purshes">
                     <div>товар:</div>
-                    <input type="text" class="addition__name">
+                    <input type="text" class="addition__name1">
                 </div>
                 <div class="addition__price">
                     <div>цена:</div>
-                    <input type="text" class="addition__name">
+                    <input type="text" class="addition__name2">
                 </div>
                 <div class="addition__category">
                     <div>Категория</div>
-                    <select>
+                    <select class="select">
                         <option>Еда</option>
                         <option>Напитки</option>
                         <option>Развлечения</option>
@@ -65,6 +73,9 @@
             </div>
         </div>
     </div>
+
+
 </body>
+<script src="script.js"></script>
 
 </html>
