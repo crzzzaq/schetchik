@@ -72,18 +72,15 @@ body {
 }
 
 .purcashes__table {
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    background-color: rgba(0, 0, 0, 0.358);
+    border-radius: 4px;
 }
 
-.price {}
 
-.purcashes__head {}
-
-.purcashes__name {}
-
-.purcashes__row {}
 
 .addition {
     background-color: gray;
@@ -145,4 +142,6 @@ input[type=text] {
     width: 24px;
     height: 24px;
     object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.358);
+    border-radius: 4px;
 }

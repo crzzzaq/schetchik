@@ -21,11 +21,17 @@ btn.addEventListener('click', () => {
                 <img src="img/close.png" class="close">
             </td>
     </tr>` )
+    input1.value = ' ';
+    input2.value = ' ';
 })
 
 tbody.addEventListener('click', (evt) => {
-    let target = 
-})
+   let target = evt.target;
+   
+   target.closest('tr').remove();
+   
+   }
+)
 
 
 
